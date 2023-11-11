@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+int long long n, m, x, s;
+int main()
+{
+    cin>>n>>m;
+    x=n*m;
+    if(n>=m){
+        s=((m+1)*m)/2;
+       
+        cout<<x-s;
+    }
+    else if(n<m){
+        s=((n+1)*n)/2;
+       
+        cout<<x-s;
+    }
+    
+    return 0;
+}
